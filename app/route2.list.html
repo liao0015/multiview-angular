@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h3>List of Fruits</h3>
+<ul>
+	<li ng-repeat="item in things">{{item}}
+    	<a href="" ng-click="removeName(item)">remove</a>
+    </li>
+</ul>
+<form ng-submit="addName()">
+    <input ng-model="enteredName" type="text"/>
+    <input type="submit" value="add"/>
+</form>
+
+</body>
+</html>

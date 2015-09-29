@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="nameApp">
+<head>
+<meta charset="UTF-8">
+<title>My To do list</title>
+<!--bower install bootstrap --save---->
+<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container">
+
+<div class="navbar">
+    <div class="navbar-inner">
+    	<ul class="nav">
+            <a ui-sref="route1">Route 1</a>
+            <a ui-sref="route2">Route 2</a>
+            <a ui-sref="route3">Route 3</a>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+	<div class="span12">
+    	<div class="well" ui-view></div>
+    </div>
+</div>
+
+
+<!--angular js-->
+<script src="../bower_components/angular/angular.min.js"></script>
+<!---bower install angular-ui-router --save--->
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<!---bower install angular-bootstrap --save--->
+<script src="../bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<!--bower instal ngstorage --save -->
+<script src="../bower_components/ngstorage/ngStorage.js"></script>
+<script src="app.js"></script>
+<script src="main_controller.js"></script>
+</body>
+</html>

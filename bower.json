@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "This is my todo list angular app",
+  "authors": [
+    "BO LIAO"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-bootstrap": "~0.13.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angularLocalStorage": "ngStorage#~0.3.0",
+    "ngstorage": "~0.3.9"
+  }
+}
